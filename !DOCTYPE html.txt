@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>متجر الورود</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: linear-gradient(to bottom, #FF7E5F, #feb47b);
+color: #fff;
+text-align: center;
+}
+
+header {
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+font-size: 3rem;
+margin: 0;
+}
+
+.hero {
+padding: 50px 20px;
+}
+
+.hero p {
+font-size: 1.5rem;
+}
+
+.btn {
+display: inline-block;
+margin: 20px auto;
+padding: 15px 30px;
+background-color: #ff6f61;
+color: #fff;
+font-size: 1.2rem;
+border: none;
+border-radius: 25px;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+.btn:hover {
+background-color: #ff4b3e;
+}
+
+.categories {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding: 20px;
+gap: 20px;
+}
+
+.category {
+background-color: rgba(255, 255, 255, 0.1);
+padding: 20px;
+border-radius: 15px;
+width: 200px;
+text-align: center;
+transition: transform 0.3s, background-color 0.3s;
+}
+
+.category:hover {
+transform: scale(1.1);
+background-color: rgba(255, 255, 255, 0.3);
+}
+
+footer {
+margin-top: 40px;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.5);
+font-size: 0.9rem;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>متجر الورود</h1>
+</header>
+
+<div class="hero">
+<h2>أجمل الورود بألوان غروب الشمس</h2>
+<p>استمتع باختيار باقتك المثالية من تشكيلاتنا المميزة.</p>
+<a href="#categories" class="btn">تسوّق الآن</a>
+</div>
+
+<section id="categories" class="categories">
+<div class="category">
+<h3>ورد طبيعي</h3>
+<p>باقات من الطبيعة تضيف الحياة لأي مكان.</p>
+</div>
+<div class="category">
+<h3>باقات مناسبات</h3>
+<p>تصاميم مثالية لكل مناسباتك الخاصة.</p>
+</div>
+<div class="category">
+<h3>ورود صناعية</h3>
+<p>جمال يدوم للأبد بألوان راقية.</p>
+</div>
+</section>
+
+<footer>
+<p>©️ 2024 متجر الورود - كل الحقوق محفوظة</p>
+</footer>
+</body>
+</html>
